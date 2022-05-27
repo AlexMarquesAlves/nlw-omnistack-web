@@ -1,5 +1,5 @@
-import P from 'prop-types';
 import * as Styled from './styles';
+import P from 'prop-types';
 
 export const App = ({ children }) => {
   return <Styled.Container>{children}</Styled.Container>;

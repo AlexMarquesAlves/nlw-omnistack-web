@@ -1,7 +1,7 @@
-import P from 'prop-types';
 import { ThemeProvider } from 'styled-components';
-import { GlobalStyles } from './global-styles';
 import { theme } from './theme';
+import P from 'prop-types';
+import { GlobalStyles } from './global-styles';
 
 export const MyThemeProvider = ({ children }) => {
   return (

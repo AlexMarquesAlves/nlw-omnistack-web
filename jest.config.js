@@ -11,11 +11,14 @@ module.exports = {
     '!<rootDir>/node_modules/',
   ],
   testEnvironment: 'jsdom',
-  testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test|tests).[tj]s?(x)'],
+  testMatch: [
+    '**/__tests__/**/*.[jt]s?(x)',
+    '**/?(*.)+(spec|test|tests).[tj]s?(x)',
+  ],
   testPathIgnorePatterns: ['/node_modules/', '/.next/', '/.out/', '/public/'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup-tests.js'],
-  transform: {
-    // '\\.tsx?$': 'ts-jest',
-    '\\.jsx?$': 'babel-jest',
-  },
+  // transform: {
+  //   // '\\.tsx?$': 'ts-jest',
+  //   '\\.jsx?$': 'babel-jest',
+  // },
 };
