@@ -15,7 +15,7 @@
     "build-storybook": "build-storybook",
     "test": "vitest --passWithNoTests",
     "test:staged": "yarn test --findRelatedTests",
-    "test:push": "yarn test --coverage",
+    "test:push": "yarn test --watch=false --coverage",
     "export": "next export",
     "deploy-static": "npm run build && npm run export",
     "lint-staged": "lint-staged",
