@@ -62,6 +62,7 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-storybook": "^0.5.12",
+    "git-commit-msg-linter": "^4.5.0",
     "husky": "^8.0.1",
     "jest-styled-components": "^7.0.8",
     "jsdom": "^19.0.0",
